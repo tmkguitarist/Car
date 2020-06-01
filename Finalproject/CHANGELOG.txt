@@ -1,0 +1,137 @@
+**Important**
+Since the implementation of Javascript into my website, I decided to make the switch over to Visual Studio Code for many different reasons
+1.) I had issues with constants (const) being detected in Brackest.io
+2.) More online support for issues I run into with content I want to add
+3.) I feel there is more versatility with what it has to offer and the fact it is one of the most used pieces of coding/editing software
+   a.) Expanding on the last, more plugins that will help me with other languages in the future
+**
+
+April 2, 2020 Thursday
+I have decided to keep a read me to track all future progress from today onward.
+A lot has already been made and implemented up to now but I kept forgetting to make one of these.
+
+Progress report for April 2, 2020 Thursday
+This is my first entry that should have been made a month or so ago.
+--I have already made most of my content and scripts (using Youtube videos) and implemented them.
+--A CSS style sheet is made and has changed most of the elements on my pages.
+--2 JS scripts that control the navigation bar (links for mobile/tablet), and the image slider for the vehicles.
+
+_______________________________________________________________________________________________________________________________________________
+
+
+April 3, 2020 Friday
+
+What was accomplished?
+--Added CSS elements for the nav links provided in the body tag, text color changed for all links
+_______________________________________________________________________________________________________________________________________________
+
+
+April 4, 2020 Saturday
+
+--General HTML & CSS improvements accross the website
+
+_______________________________________________________________________________________________________________________________________________
+
+
+April 5, 2020 Sunday
+**Had major issues getting my desktop to work from around 01:00 or 02:00 in the morning, finally working around 08:00.**
+
+--Ran all pages through the HTML and CSS validator to ensure no apparent issues (I know a lot of what still needs fixed)
+--Massive improvements to the stock page and the CSS for it
+--Added comment tags for easier navigation of the CSS page
+
+Note: The mobile and tablet view is still a little broken in areas and needs some attention.
+      I am planning an optimization phase around 2 - 3 weeks from the final turn-in, but will try to iron most of the issues by next update.
+
+_______________________________________________________________________________________________________________________________________________
+
+
+April 11, 2020 Saturday
+
+--Added class 'ital' & id 'ask' to emphasize the questions on the Import page
+--Added meta description for each page
+--Footer section created & implemented on all of the pages
+--Started trying to work through optimization issues on different screens and platforms
+
+_______________________________________________________________________________________________________________________________________________
+
+
+April 12, 2020 Sunday
+
+--Switched from an image slider to an image gallery for better functionality
+      -Includes new Javascript file (main.js) & updated HTML CSS
+      -Added alt text for all pictures associated
+
+_______________________________________________________________________________________________________________________________________________
+
+
+April 13 & 14, 2020 Monday & Tuesday
+
+--(Nothing)
+
+_______________________________________________________________________________________________________________________________________________
+
+
+April 15, 2020 Wednesday
+
+--Created a table on the inventory page, CSS configured as well
+      -Later improved the table to look more modern
+--Added alert to the bottom of the inventory page on the h1 tag
+--Added a form to the contact_legal page for question submission
+
+_______________________________________________________________________________________________________________________________________________
+
+
+April 16, 2020 Thursday
+
+--Created and placed a banner on the index, import_faq, & stock page
+--Changed parameters of the form box to be more responsive from desktop to mobile
+
+_______________________________________________________________________________________________________________________________________________
+
+
+April 17, 2020 Friday
+
+--Placed last banner on the contact_legal page, finishing the banners
+--Started configuring social media links to add to the web site
+      -Finished placement on all pages, at the bottom
+--Cleaned out unused code before uploading to test on server
+      -Added better comment tags on CSS page for better readibility
+
+_______________________________________________________________________________________________________________________________________________
+
+
+April 18, 2020 Saturday
+
+--Added working social media links to the bottom of each page
+--Fixed a bug where top navigation links were not vertically centered
+      -Took way too long to figure the issue out
+
+_______________________________________________________________________________________________________________________________________________
+
+
+May 4, 2020 Monday
+
+--Changed font family on each page
+--Changed link on the Instagram social media icon
+--Changed United States Dollar to Japanese Yen
+      -Added a currency converter on the stock page
+
+_______________________________________________________________________________________________________________________________________________
+
+
+May 6, 2020 Wednesday
+
+--Added a SOURCES file to track the videos and/or sites I used to create the scripts associated with the website
+
+
+_______________________________________________________________________________________________________________________________________________
+
+
+May 8, 2020 Friday
+
+**Internet was out so I decided to look at a few potential improvements**
+
+--Made some touch-ups with the mobile view to fit the text closer to the banners
+      -Redefined overall text-spacing throughout the website for better mobile view
+--Changed the default currencies that are displayed to fit the target countries

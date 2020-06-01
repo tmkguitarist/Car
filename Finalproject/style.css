@@ -1,0 +1,494 @@
+*{ padding: 0px; margin: 0px; box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif; }
+
+/*Image gallery attributes*/
+.container {
+    max-width: 500px;
+    margin: auto;
+    border: rgb(177, 177, 177) solid 1px;
+    background: #fff;
+}
+
+      .main-img img, 
+      .imgs img {
+          width: 100%;
+      }
+
+      .imgs {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 2px;
+      }
+
+      /* Fade in animation*/
+      @keyframes fadeIn {
+          to {
+              opacity: 1;
+          }
+      }
+
+      /*.fade-in {
+          opacity: 50%;
+          animation: fadeIn 0.5s ease-in 1 forwards;
+      }*/
+
+.details { padding: 2em 2em 2em 2em; overflow: auto; }
+
+/*Used for the FAQ section on the Import page*/
+#ask { font-weight: bolder; }
+.ital { font-style: italic; text-decoration: underline; }
+
+/*Attributes for pictures and links on the stock page*/
+.floatright { background-color: #c9c9c9; padding: 5vh; margin: auto; }
+.floatright a { float: right; 
+            width: 70%; 
+            padding-top: 10vh; 
+            text-decoration: none; 
+            font-weight: bold; 
+            color: #810000;
+        }
+
+/*Used for the bottom of each car page, if vehicle is allowed or not*/
+#eligible { font-weight: bold; padding-left: 2em; padding-right: 2em; padding-bottom: 2em; font-size: 19px; }
+
+nav { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #810000;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Attributes for the navigation bar at the top of the page*/
+.logo { 
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+ }
+
+        .nav-links { position: relative;
+            top: 40px;
+            display: flex;
+            justify-content: space-around;
+            width: 55%;
+        }
+
+        .nav-links li { list-style: none; }
+
+        .nav-links a {
+            color: rgb(211, 211, 211);
+            text-decoration: none;
+            letter-spacing: 3px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+ /*Attributes for the class that controls the three lines on the nav bar(for mobile/tablet)*/
+ .burger { display: none;
+            cursor: pointer; 
+}
+ 
+ .burger div { 
+     width: 25px;
+     height: 3px;
+     background-color: rgb(211, 211, 211);
+     margin: 5px;
+     transition: all 0.3s ease;
+  }
+
+  /*For the banners on each main page*/
+  #banner { background-image: url(images/banner/club.PNG); background-repeat: no-repeat; background-size: 100%; height: 280px; }
+  #cargo { background-image: url(images/banner/importcrop.PNG); background-repeat: no-repeat; background-size: 100%; height: 280px; }
+  #stock { background-image: url(images/banner/fairz.PNG); background-repeat: no-repeat; background-size: 100%; height: 280px; }
+  #lineup { background-image: url(images/banner/behind.PNG); background-repeat: no-repeat; background-size: 100%; height: 320px; }
+
+  /*Attributes for links on the contact_legal page*/
+.legal { padding-left: 50px; }
+.legal a { text-decoration: none; color: #810000; }
+.legal a:visited { color: #810000; }
+
+/*General elements for the next few lines*/
+h1, h2, h3 { margin-top: 20px; padding-bottom: 20px; text-align: center; }
+h1 a, h3 a { text-decoration: none; color: #810000; }
+
+body { background-color: rgb(211, 211, 211); padding: 2% 0% 0% 2%;  }
+
+main { padding: 0 0 15em 0; }
+
+p { padding-left: 2em; padding-right: 2em; padding-bottom: 2em; font-size: 19px; }
+
+ul { padding-left: 2em; padding-bottom: 5em; }
+
+/*Lots of attributes for the currency converter*/
+.color { color: #fff; }
+
+        .container1 {
+            width: 375px;
+            margin: 20px auto;
+            overflow-x: hidden;
+            position: relative;
+          }
+
+        .header {
+          background-color: #2d2d37;
+          text-align: center;
+          padding: .25rem;
+        }
+
+        .header h1 {
+          font-size: 2rem;
+        }
+
+        .date {
+          background-color: #222;
+          text-align: right;
+          font-size: 0.75rem;
+          padding: 0.75rem 2rem 0.75rem 0;
+        }
+
+        ul.currencies {
+          height: calc(100vh - 40px - 100px - 40px - 58px);
+          background-color: #222;
+          padding: 0 1.5rem 1rem 1.5rem;
+          overflow-y: auto;
+        }
+
+        ul.currencies li {
+          background-color: #2d2d37;
+          border-radius: 5px;
+          list-style: none;
+          padding: 1rem 1rem 0.75rem 1rem;
+          margin-bottom: 1rem;
+          position: relative;
+        }
+
+        ul.currencies li:last-child {
+          margin-bottom: 0;
+        }
+
+        ul.currencies li.base-currency {
+          background-color: #264d73;
+        }
+
+        .flag {
+          width: 50px;
+          height: 30px;
+          border: 1px solid #fff;
+          vertical-align: top;
+        }
+
+        .info {
+          display: inline-block;
+          width: 78%;
+        }
+
+        .info .input span {
+          font-size: 1rem;
+          display: inline-block;
+          width: 4rem;
+          text-align: center;
+        }
+
+        .info .input input {
+          font-size: 1.2rem;
+          width: 70%;
+          background-color: transparent;
+          border: 2px solid #fff;
+          border-radius: 5px;
+          color: #fff;
+          padding: 0.3rem;
+          margin-bottom: 0.75rem;
+        }
+
+        .info .currency-name {
+          font-size: 1rem;
+          font-weight: bold;
+        }
+
+        .info .base-currency-rate {
+          font-size: 0.8rem;
+          margin-left: 4rem;
+        }
+
+        ul.currencies li .close {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 0 0.5rem;
+          font-size: 1.5rem;
+          color: #666;
+          cursor: pointer;
+        }
+
+        ul.currencies li .close:hover {
+          color: #fff;
+        }
+        
+        /* Scrollbar */
+        ul.currencies::-webkit-scrollbar {
+          width: 5px;
+        }
+
+        ul.currencies::-webkit-scrollbar-thumb {
+          background-color: #2d2d37;
+          border-bottom: 1rem solid #222;
+        }
+
+        
+        ul.add-currency-list {
+          position: absolute;
+          bottom: 54px;
+          left: 105%;
+          background-color: #f1f1f1;
+          color: #333;
+          width: 100%;
+          height: calc(100vh - 40px - 100px - 55px);
+          overflow-y: auto;
+          transition: all 0.25s;
+        }
+
+        ul.add-currency-list li {
+          list-style: none;
+          padding: 0.75rem;
+          border-bottom: 1px solid #ddd;
+        }
+
+        ul.add-currency-list li.disabled {
+          opacity: 0.7;
+          cursor: not-allowed;
+        }
+
+        ul.add-currency-list li .flag {
+          width: 3rem;
+          height: 2rem;
+          vertical-align: middle;  
+        }
+
+        ul.add-currency-list li span {
+          margin-left: 1rem;
+          font-weight: bold;
+        }
+        
+        .add-currency-btn {
+          background-color: #00b386;
+          color: #fff;
+          padding: 1rem;
+          font-size: 1.2rem;
+          font-weight: bold;
+          border: none;
+          border-top: 3px solid #222;
+          outline: none;
+          width: 100%;
+          cursor: pointer;
+          transition: background-color 0.25s;
+          position: relative;
+        }
+
+        .add-currency-btn i {
+          position: absolute;
+          top: 0.6rem;
+          left: 30%;
+          font-size: 2rem;
+          opacity: 0;
+          transition: all 0.25s;
+        }
+        
+        .add-currency-btn.open {
+          background-color: #d9534f;
+        }
+
+        .add-currency-btn.open i {
+          opacity: 1;
+          left: 1.25rem;
+        }
+
+        .add-currency-btn.open + ul.add-currency-list {
+          left: 0;
+        }
+
+        .add-currency-btn.open + ul.add-currency-list li:hover {
+          background-color: #ddd;
+        }
+
+/*Attributes for the table on the Inventory page*/
+.table { 
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: #929292;
+ }
+
+      .table a {text-decoration: none; color: #810000; }
+
+      .table thead tr {
+          background-color: #810000;
+          color: #ffffff;
+          text-align: left;
+          font-weight: bold;
+      }
+
+      .table th, .table td { 
+          padding: 12px 15px; border: 1px solid #000000;
+      }
+
+      .table tbody tr:last-of-type {
+          border-bottom: 2px solid #2e2e2e;
+      }
+
+/*Attributes for the form used on contact_legal page*/
+ form { padding: 2em; border: 2px solid #2e2e2e; box-shadow: 0 0 10px #2e2e2e; background-color: #929292; width: 30%;}
+ label { float: left; display: block; text-align: right; width: 8em; padding-right: 1em; font-weight: bold;}
+ input, textarea { display: block; margin-bottom: 1em; border: 0.5px solid #2e2e2e; }
+
+ /*Attributes for the social media buttons*/
+ .middle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+        .middle p { font-weight: bold; width: 100%; }
+
+        .btn{
+            display: inline-block;
+            width: 90px;
+            height: 90px;
+            background: #f1f1f1;
+            margin: 10px;
+            border-radius: 30%;
+            box-shadow: 0 5px 15px -5px #00000070;
+            color: #810000;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .btn i {
+            line-height: 90px;
+            font-size: 26px;
+            transition: 0.2s linear;
+        }
+
+        .btn:hover i {
+            transform: scale(1.3);
+            color:#f1f1f1;
+        }
+
+        .btn::before {
+            content: "";
+            position: absolute;
+            width: 120%;
+            height: 120%;
+            background: #810000;
+            transform: rotate(45deg);
+            left: -110%;
+            top: 90%;
+        }
+
+        .btn:hover::before {
+            animation: aaa 0.7s 1;
+            top: -10%;
+            left: -10%;
+        }
+
+        @keyframes aaa {
+            0%{
+                left: -110%;
+                top: 90%;
+            }50%{
+                left: 10%;
+                top: -30%;
+            }100%{
+                top: -10%;
+                left: -10%;
+            }
+        }
+
+/*Attributes for the footer section*/
+footer { padding-left: 1em; padding-top: 1em; padding-right: 1em; padding-bottom: 1em; 
+    font-size: 19px; 
+    text-align: center;
+    position: absolute;
+    background-color: #810000;
+    color: rgb(211, 211, 211);
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+/*Tablet attributes*/
+@media screen and (max-width:1024px) {
+    .nav-links { width: 60%; }
+    form { width: 70%; }
+}
+
+/*Mobile attributes*/
+@media screen and (max-width:768px) {
+    .floatright a { float: right; width: 100%; padding-top: 4vh;  }
+    body { overflow-x: hidden; }
+    h1 { margin-top: -120px; }
+    #space { margin-top: -160px; }
+    #faq { margin-top: 150px; color: #810000; }
+    #also { margin-top: 150px; }
+    #carname { margin-top: 150px; }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 70vh;
+        top: 9.5vh;
+        background-color: #444444;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 35%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li { opacity: 100%; }
+    .burger { display: block; }
+    .container { width: 100%; margin-top: 20px; }
+    ul.currencies { height: calc(100vh - 83px - 34px - 51px); }
+    .header h1 { font-size: 2rem; }
+    .flag { width: 3rem; height: 2rem; }
+    .info .input span { font-size: 1.25rem; width: 3.5rem; }
+    .info .input input { font-size: 1.25rem; width: 100%;}
+    .info .base-currency-rate { margin-left: .2rem; }
+    ul.add-currency-list { bottom: 48px; height: calc(100vh - 80px - 51px); }
+    .add-currency-btn i { left: 25%; top:0.65rem; }
+    .table { width: 50%; }
+    form { width: 90%; }
+}
+
+/*Configuring for the navigation links on top of page*/
+.nav-active { 
+    transform: translateX(0%);
+ }
+
+  @keyframes navLinkFade {
+     from{
+        opacity: 0;
+        transform: translateX(50px);
+     }
+     to {
+        opacity: 1;
+        transform: translate(0px);
+     }
+ }
+
+ .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+ }
+
+ .toggle .line2 {
+     opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}

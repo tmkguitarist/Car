@@ -1,0 +1,23 @@
+For the scripts that I used on this website, all links below will go straight to the source.
+
+First link is for the imgae slider (Ended up using something different, but was in the first update submission)
+https://www.youtube.com/watch?v=KcdBOoK3Pfw&list=WL&index=5&t=0s    by Dev Ed
+
+The image gallery I ended up going with
+https://www.youtube.com/watch?v=7ZO2RTMNSAY&list=WL&index=9     by Traversy Media
+
+
+Responsive Navigation Bar
+https://www.youtube.com/watch?v=gXkqy0b4M5g&list=WL&index=5     by Dev Ed
+
+
+Since the site is supposed to be international I wanted to put a currency converter
+https://www.youtube.com/watch?v=ARBvYDNeNdM&list=WL&index=5     by Coding Journey
+
+
+For the social media buttons at the bottom of each page
+https://www.youtube.com/watch?v=fDm0WJ_66d0&list=WL&index=7     by DarkCode
+
+
+
+For some parts of the website I also used "w3 schools" and "Stack Overflow" (I think, might have this project mixed up with another)
